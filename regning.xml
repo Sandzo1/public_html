@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<regning>
+    <kundeoplysninger>
+        <fornavn>Per</fornavn>
+        <efternavn>Larsen</efternavn>
+        <by>Vejle</by>
+        <postnr>7100</postnr>
+    </kundeoplysninger>
+
+    <varelinie>
+        <varenr>1001</varenr>        <varenavn>Banan</varenavn>
+        <varepris>10.00</varepris>
+
+    </varelinie>
+</regning>

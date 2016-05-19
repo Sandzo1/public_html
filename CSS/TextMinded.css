@@ -1,0 +1,19 @@
+html,body{
+    margin:0;
+    padding: 0;
+    font-size: 100%;
+}
+#wrapper{
+
+}
+
+#div-form{
+    background-color: lightseagreen;
+
+    float:left
+
+}
+
+form input[type=text],input[type=submit]{
+    color: black;
+}

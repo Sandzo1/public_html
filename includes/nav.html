@@ -1,0 +1,67 @@
+﻿     <nav>
+         <span class="nav-btn"></span>
+                    <ul class="nav">
+                        <li>
+                           <a href="index.php" title="Forside">Hjem</a>
+                        </li>
+                        <li>
+                            <a href="Salg.php" title="Biler på lager">Salg</a>
+                        </li>
+                        <li>
+                            <a href="Nyhedsbreve.php" title="Se eller opret dig vores nyhedsbreve">Nyhedsbreve</a>
+                        </li>
+                        <li>
+                            <a href="Kontakt.php">Kontakt</a>
+                        </li>
+                        
+                          <li>
+                            <a href="BilVideo.php">Video</a>
+                        </li>
+                          <li>
+                            <a href="Opsparing.php">Opsparing</a>
+                        </li>
+                        <li>
+                            <a href="API.php">API</a>
+                        </li>
+                          <li>
+                            <a href="PingPong.php">Ping Pong</a>
+                        </li>
+                         <li>
+                            <a href="Animation.php">Animation</a>
+                        </li>
+                        <li id="menuMobil">
+                            <a href="TestMenu.php">Menu</a>
+                        </li>
+
+                    </ul>
+
+                </nav>
+
+
+
+
+
+
+     <!-- ---------MENU RESPONSIVE----------- -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+     <script>
+         $('span.nav-btn').click(function (){
+             $('ul.nav').slideToggle();
+         });
+
+         $(window).resize(function (){
+             if($(window).width() > 668 ) {
+                 $('ul.nav').removeAttribute('style');
+             }
+             if($(window).width() > 668 ) {
+                 $('span.nav-btn').remove('nav-btn');
+             }
+         });
+     </script>
+     <!-- ---------MENU RESPONSIVE----------- -->
+
+            
+
+
+
+
